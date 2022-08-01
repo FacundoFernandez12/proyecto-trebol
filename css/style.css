@@ -116,6 +116,11 @@ header nav ul li a {
     color: white;
     font-size: 18px;
 }
+.abrigos__invierno div div a:hover{
+    background-color: rgb(6, 92, 6);
+    color: white;
+    font-size: 20px;
+}
 
 /* ----- OFERTAS -----*/
 
@@ -158,8 +163,11 @@ header nav ul li a {
     color: white;
     font-size: 18px;
 }
-
-
+.ofertas div div a:hover{
+    background-color: rgb(6, 92, 6);
+    color: white;
+    font-size: 20px;
+}
 
 .boton__fixed img{
     width: 60px;
