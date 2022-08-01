@@ -220,6 +220,11 @@ main a{
     color: white;
     font-size: 18px;
 }
+.card__productos__1 div div a:hover{
+    background-color: rgb(6, 92, 6);
+    color: white;
+    font-size: 20px;
+}
 .card__productos__2 > div{
     display: flex;
     justify-content: center;
@@ -294,6 +299,11 @@ main a{
     padding: 5px;
     color: white;
     font-size: 18px;
+}
+.card__ofertas__1 div div a:hover{
+    background-color: rgb(6, 92, 6);
+    color: white;
+    font-size: 20px;
 }
 .card__ofertas__2 > div{
     display: flex;
