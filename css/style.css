@@ -36,8 +36,12 @@ header nav ul li a {
     color: black;
     font-size: 25px;
     font-weight: 900;
+    transition: 0.2s;
 }
-
+header nav ul li a:hover{
+    text-decoration: underline;
+    color: green;
+}
 
 /* ------------------------------------------------------------------------------------------main------------------------------------------------------------------------------------------*/
 
