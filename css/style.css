@@ -7,17 +7,17 @@
 
 /* --------------------------------------------------------------------------------------header----------------------------------------------------------------------------------------*/
 
-/* header{
-    background-color: white;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-} */
 header nav div img{
     padding: 15px;
     width: 140px;
     height: 140px;
+}
+header nav div div ul li a {
+    font-weight: 500;
+    transition: 0.2s;
+}
+header nav div div ul li a:hover{
+    text-decoration: underline;
 }
 /* header img{
     padding: 15px;
@@ -35,14 +35,14 @@ header nav ul li {
     margin: 10px;
 }
 
-header nav ul li a {
+header nav div div ul li a {
     text-decoration:none;
     color: black;
     font-size: 25px;
     font-weight: 900;
     transition: 0.2s;
 }
-header nav ul li a:hover{
+header nav div div ul li a:hover{
     text-decoration: underline;
     color: green;
 }
