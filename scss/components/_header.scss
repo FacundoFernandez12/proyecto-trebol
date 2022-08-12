@@ -1,0 +1,25 @@
+@import "../base/variables";
+header {
+    nav {
+        div{
+                img {
+                    padding: 15px;
+                    width: 140px;
+                    height: 140px;
+                }
+            div {
+                ul {
+                    li {
+                        a {
+                            font-weight: 500;
+                            transition: 0.2s;
+                            &:hover{
+                                text-decoration: underline;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

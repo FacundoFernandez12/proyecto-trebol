@@ -1,0 +1,233 @@
+@import "./variables";
+
+@media screen and (max-width:927px) {
+    main .abrigos__invierno > div{
+        grid-template-columns: repeat(2,1fr);
+    }
+    main .card__productos__1 > div{
+        grid-template-columns: repeat(2,1fr);
+    }
+    main .ofertas > div{
+        grid-template-columns: repeat(2,1fr);
+    }
+    main .card__ofertas__1 > div{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media screen and (max-width:748px) {
+    main .grid__contenedor{
+        grid-template-columns: repeat(1,1fr);
+        margin: 0px;
+    }
+    main .grid__contenedor .grid__imagen__1 img{
+        width: 100%;
+        height: 100%;
+    }
+    main .grid__contenedor .grid__imagen__2 img{
+        width: 100%;
+        height: 100%;
+    }
+    main .grid__contenedor .grid__imagen__3 img{
+        width: 100vw;
+        height: 100%;
+    }
+    main .grid__contenedor .grid__imagen__1{
+        order: 1;
+    }
+    main .grid__contenedor .grid__parrafo__1{
+        order: 2;
+        font-size: medium;
+    }
+    main .grid__contenedor .grid__imagen__2{
+        order: 3;
+    }
+    main .grid__contenedor .grid__parrafo__2{
+        order: 4;
+        font-size: medium;
+    }
+    main .grid__contenedor .grid__imagen__3{
+        order: 5;
+    }
+    main .grid__contenedor .grid__parrafo__3{
+        order: 6;
+        font-size: medium;
+    }
+}
+@media screen and (max-width:609px) {
+    main .abrigos__invierno > div{
+        grid-template-columns: repeat(1,1fr);
+    }
+    main .ofertas > div{
+        grid-template-columns: repeat(1,1fr);
+    }
+    main .card__productos__1 > div{
+        grid-template-columns: repeat(1,1fr);
+    }
+    main .card__ofertas__1 > div{
+        grid-template-columns: repeat(1,1fr);
+    }
+    footer img{
+        width: 40px;
+        height: 40px;
+    }
+    footer p{
+        font-size: 10px;
+    }
+    footer div a img{
+        width: 40px;
+        height: 40px;
+    }
+    .boton__fixed img{
+        width: 40px;
+        height: 40px;
+        right: 40px;
+        bottom: 150px;
+    }
+}
+
+@media screen and (max-width:518px) {
+main .contacto iframe{
+    margin: 15px;
+    height: 400px;
+    width: 400px;
+}
+main .presentacion div p{
+    font-size: 18px;
+    font-weight: 200;
+    letter-spacing: 4px;
+}
+}
+@media screen and (max-width:500px) {
+    main .grid__contenedor .grid__parrafo__1{
+        font-size: small;
+    }
+    main .grid__contenedor .grid__parrafo__2{
+        font-size: small;
+    }
+    main .grid__contenedor .grid__parrafo__3{
+        font-size: small;
+    }
+}
+
+@media screen and (max-width:446px) {
+    main .presentacion div h1{
+        font-size: 70px;
+        font-weight: 50;
+        letter-spacing: 8px;
+    
+    }
+}  
+@media screen and (max-width:408px) {
+    main .abrigos__invierno p{
+        font-size: 25px
+    }
+    main .ofertas p{
+        font-size: 25px
+    }
+    main p{
+        font-size: 25px
+    }
+}   
+@media screen and (max-width:362px) {
+    main .grid__contenedor .grid__imagen__1 img{
+        width: 100%;
+        height: 100%;
+    }
+    main .grid__contenedor .grid__imagen__2 img{
+        width: 100%;
+        height: 100%;
+    }
+    main .grid__contenedor .grid__imagen__3 img{
+        width: 100%;
+        height: 100%;
+    }
+}   
+@media screen and (max-width:349px) {
+    footer img{
+        width: 30px;
+        height: 30px;
+    }
+    footer div a img{
+        width: 30px;
+        height: 30px;
+    }
+}
+@media screen and (max-width:334px) {
+    main .presentacion div h1{
+        font-size: 60px;
+        font-weight: 50;
+        letter-spacing: 8px;
+    
+    }
+}
+@media screen and (max-width:303px) {
+    main .abrigos__invierno p{
+        font-size: 20px
+    }
+    main a{
+        font-size: 25px
+    }
+    main p{
+        font-size: 20px
+    }
+    main .ofertas p{
+        font-size: 20px
+    }
+    main .abrigos__invierno div div{
+        width: 250px;
+        height: 350px;
+    }
+    main .abrigos__invierno div div img{
+        width: 100%;
+        height: 250px;
+    }
+    main .abrigos__invierno div div h3{
+        font-size: 20px;
+    }
+    main .abrigos__invierno div div a{
+        font-size: 15px;
+    }
+    main .ofertas div div{
+        width: 250px;
+        height: 350px;
+    }
+    main .ofertas div div img{
+        width: 100%;
+        height: 250px;
+    }
+    main .ofertas div div h3{
+        font-size: 20px;
+    }
+    main .ofertas div div a{
+        font-size: 15px;
+    }
+    main .card__productos__1 div div{
+        width: 250px;
+        height: 350px;
+    }
+    main .card__productos__1 div div img{
+        width: 100%;
+        height: 250px;
+    }
+    main .card__productos__1 div div h3{
+        font-size: 20px;
+    }
+    main .card__productos__1 div div a{
+        font-size: 15px;
+    }
+    main .card__ofertas__1 div div{
+        width: 250px;
+        height: 350px;
+    }
+    main .card__ofertas__1 div div img{
+        width: 100%;
+        height: 250px;
+    }
+    main .card__ofertas__1 div div h3{
+        font-size: 20px;
+    }
+    main .card__ofertas__1 div div a{
+        font-size: 15px;
+    }
+}  
