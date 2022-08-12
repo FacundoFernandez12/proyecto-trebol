@@ -1,0 +1,22 @@
+@import "../base/variables";
+main{
+    .contacto{
+        div{
+            margin: 15px;
+            display: flex;
+            img{
+                width: 20px;
+                height: 20px;
+                margin: 15 px;
+            }
+        }
+        iframe{
+            margin: 15px;
+        }
+    }
+    form{
+        .boton{
+            margin: 15px;
+        }
+    }
+}
