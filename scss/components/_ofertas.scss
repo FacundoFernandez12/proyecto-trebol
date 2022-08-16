@@ -1,10 +1,11 @@
+@import "../base/maps";
 @import "../base/variables";
 main{
     > p{
-        text-decoration:none;
-        margin: 40px;
-        color: $color-verde;
-        font-size: 35px
+        @extend %flex;
+        margin: map-get($titulo , margen-titulo );
+        color: map-get($titulo, color-titulo );
+        font-size: map-get($titulo , tamano-texto-titulo )
     }
     .card__ofertas__1{
         > div{

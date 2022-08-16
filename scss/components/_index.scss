@@ -1,4 +1,7 @@
+@import "../base/maps";
 @import "../base/variables";
+
+
 //               PRESENTACION
 main{
     .presentacion{
@@ -35,9 +38,10 @@ main{
     //          ABRIGOS INVIERNO
     .abrigos__invierno{
         p{
-            margin: 20px;
-            color: $color-verde;
-            font-size: 35px
+            @extend %flex;
+            margin: map-get($titulo , margen-titulo );
+            color: map-get($titulo, color-titulo );
+            font-size: map-get($titulo , tamano-texto-titulo )
         }
         > div{
             display: grid;
@@ -86,9 +90,10 @@ main{
 //          OFERTAS
 .ofertas{
     p{
-        margin: 20px;
-        color: $color-verde;
-        font-size: 35px
+        @extend %flex;
+        margin: map-get($titulo , margen-titulo );
+        color: map-get($titulo, color-titulo );
+        font-size: map-get($titulo , tamano-texto-titulo )
     }
     > div{
         display: grid;
