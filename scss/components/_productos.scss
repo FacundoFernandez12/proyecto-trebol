@@ -2,7 +2,7 @@
 @import "../base/variables";
 main{
     > p{
-        @extend %flex;
+        @include flex (flex, center, center);
         margin: map-get($titulo , margen-titulo );
         color: map-get($titulo, color-titulo );
         font-size: map-get($titulo , tamano-texto-titulo )

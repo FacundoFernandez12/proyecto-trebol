@@ -13,3 +13,8 @@ $color-fondo-boton-verde: rgb(6, 92, 6);
 }
 
 
+@mixin flex ($flex, $justify, $align){
+    display: $flex;
+    justify-content: $justify;
+    align-items: $align;
+}

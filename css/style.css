@@ -1,4 +1,4 @@
-main .abrigos__invierno p, .ofertas p, main > p {
+main .abrigos__invierno p, .ofertas p {
   display: flex;
   justify-content: left;
   align-items: center; }
@@ -14,7 +14,7 @@ header nav div div ul li a {
   header nav div div ul li a:hover {
     text-decoration: underline; }
 
-main .abrigos__invierno p, .ofertas p, main > p {
+main .abrigos__invierno p, .ofertas p {
   display: flex;
   justify-content: left;
   align-items: center; }
@@ -31,7 +31,7 @@ footer {
     width: 60px;
     height: 60px; }
 
-main .abrigos__invierno p, .ofertas p, main > p {
+main .abrigos__invierno p, .ofertas p {
   display: flex;
   justify-content: left;
   align-items: center; }
@@ -40,12 +40,12 @@ main .abrigos__invierno p, .ofertas p, main > p {
   margin: 0;
   padding: 0; }
 
-main .abrigos__invierno p, .ofertas p, main > p {
+main .abrigos__invierno p, .ofertas p {
   display: flex;
   justify-content: left;
   align-items: center; }
 
-main .abrigos__invierno p, .ofertas p, main > p {
+main .abrigos__invierno p, .ofertas p {
   display: flex;
   justify-content: left;
   align-items: center; }
@@ -166,12 +166,15 @@ main .abrigos__invierno > div {
   right: 60px;
   bottom: 150px; }
 
-main .abrigos__invierno p, .ofertas p, main > p {
+main .abrigos__invierno p, .ofertas p {
   display: flex;
   justify-content: left;
   align-items: center; }
 
 main > p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 40px;
   color: green;
   font-size: 35px; }
@@ -213,12 +216,15 @@ main .card__productos__1 > div {
         color: white;
         font-size: 20px; }
 
-main .abrigos__invierno p, .ofertas p, main > p {
+main .abrigos__invierno p, .ofertas p {
   display: flex;
   justify-content: left;
   align-items: center; }
 
 main > p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 40px;
   color: green;
   font-size: 35px; }
@@ -260,7 +266,7 @@ main .card__ofertas__1 > div {
         color: white;
         font-size: 20px; }
 
-main .abrigos__invierno p, .ofertas p, main > p {
+main .abrigos__invierno p, .ofertas p {
   display: flex;
   justify-content: left;
   align-items: center; }
@@ -279,7 +285,7 @@ main .contacto iframe {
 main form .boton {
   margin: 15px; }
 
-main .abrigos__invierno p, .ofertas p, main > p {
+main .abrigos__invierno p, .ofertas p {
   display: flex;
   justify-content: left;
   align-items: center; }
@@ -330,7 +336,7 @@ main .grid__contenedor {
     display: flex;
     align-items: center; }
 
-main .abrigos__invierno p, .ofertas p, main > p {
+main .abrigos__invierno p, .ofertas p {
   display: flex;
   justify-content: left;
   align-items: center; }
@@ -504,7 +510,7 @@ main .abrigos__invierno p, .ofertas p, main > p {
   main .card__ofertas__1 div div a {
     font-size: 15px; } }
 
-main .abrigos__invierno p, .ofertas p, main > p {
+main .abrigos__invierno p, .ofertas p {
   display: flex;
   justify-content: left;
   align-items: center; }
