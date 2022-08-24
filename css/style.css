@@ -378,7 +378,15 @@ main .abrigos__invierno p, .ofertas p {
     order: 5; }
   main .grid__contenedor .grid__parrafo__3 {
     order: 6;
-    font-size: medium; } }
+    font-size: medium; }
+  main .abrigos__invierno > div div:hover {
+    transform: none; }
+  main .ofertas > div div:hover {
+    transform: none; }
+  main .card__productos__1 > div div:hover {
+    transform: none; }
+  main .card__ofertas__1 > div div:hover {
+    transform: none; } }
 
 @media screen and (max-width: 609px) {
   main .abrigos__invierno > div {
